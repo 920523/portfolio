@@ -1,11 +1,16 @@
 body {
-    background-color: pink;
+    background-color: #f0f3f0;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+::selection {
+    background-color: #78e69b;
+    color: #264e33;
 }
 
 ol, ul {
@@ -62,7 +67,7 @@ body {
 }
 
 .nav a:hover {
-    border-bottom: 5px solid #00ffff;
+    border-bottom: 5px solid #78e69b;
 }
 
 .main {
@@ -80,12 +85,18 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+    padding: 0 30px;
 }
 
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 2em 3em 3em 0;
+    margin: auto;
+}
+
+.logo {
+    width: 150px;
 }
 
 @media (max-width: 767px) {
@@ -98,10 +109,14 @@ body {
     .logo {
         max-width: 30%;
     }
+    .nav a:hover {
+        color: #78e69b;
+        border-bottom: 0;
+    }
 }
 
 .title * {
-    color: #111;
+    color: #2e2934;
 }
 
 .title p {
@@ -113,13 +128,13 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 5px solid #00ffff;
-    background-color: #444;
+    border-top: 5px solid #78e69b;
+    background-color: #777;
     padding: 40px 80px;
 }
 
 .footer a {
-    color: #fff;
+    color: #f0e6ef;
     text-decoration: none;
 }
 
@@ -132,7 +147,7 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.4;
-    color: #444;
+    color: #2e2934;
 }
 
 p, td, th, li, dd {
@@ -144,6 +159,14 @@ p, td, th, li, dd {
 p {
     margin-bottom: 1.4rem;
     font-size: 1.2em;
+}
+
+p a {
+    color: #467d57;
+}
+
+p a:hover {
+    color: #78e69b;
 }
 
 h1, h2, h3, h4, h5, h6 {

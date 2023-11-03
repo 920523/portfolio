@@ -1,11 +1,11 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/avatar.png
+Tagline: My portfolio
 Social:
-    - title: Link till sidans github repo
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Länk till sidans GitHub-repo
+      url: https://github.com/920523/portfolio
       icon: github
-    - title: Dbwebb
+    - title: Länk till dbwebb
       url: https://dbwebb.se/kurser/design-v3
       icon: university
 ---
