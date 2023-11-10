@@ -3,13 +3,16 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Hi! I'm August, a teacher turning web developer
 ==========================
-
-Mitt namn är August Levinson. Jag är född och uppvuxen i Stockholm, där jag bor även idag. Jag har även bott i Karlskrona och Berlin
-
-Efter gymnasiet flyttade jag till Karlskrona för att plugga på Hyper Island. Efter ett och ett halvt år var det dags för praktik, i mitt fall som kommunikatör på en liten startup i Berlin. Efter praktiken flyttade jag hem till Stockholm igen. Först jobbade med rekrytering ett tag, sedan hittade jag in i skolvärlden där jag under de senaste sju åren har arbetat som bland annat lärare och IT-samordnare. Jag har länge velat fördjupa mina kunskaper i webbprogrammering, något jag tycker är väldigt kul. Den här hösten var det dags att satsa på det och här är jag nu. Det går undan och jag lär mig massor varje vecka. Toppen, helt enkelt!
-
-På fritiden gillar jag att spela basket, dra ut och cykla på grusvägar och umgås med nära och kära.
-
-![avatar](%assets_url%/img/avatar.png){.avatar}
+<div class="paragraph-wrapper">
+<div class="paragraph-p">
+<p>
+I study fullstack web development at Blekinge Institute of Technology. For the past eight years I have worked as a teacher and IT coordinator at a upper secondary school. For many years I've dabbled in web programming and for a while now had a wish to deepen my knowledge. This year it was time to commit to it, so here I am. It's a fast paced curriculum and I learn a lot every week.
+</p>
+<p>
+When I'm not building websites I enjoy playing basketball, going for gravel bike rides and spending time with friends and family.
+</p>
+</div>
+<img src="%assets_url%/img/me.jpg" class="paragraph-img">
+</div>

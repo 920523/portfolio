@@ -1,0 +1,245 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&family=Inter&display=swap');
+
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+
+// /* Visualize all elements */
+// * {
+//     border: 2px solid red;
+// }
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+
+::selection {
+    background-color: $highlight-color;
+    color: $font-color;
+}
+
+/* Placement */
+
+.content-wrapper {
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 1600px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav a {
+    font-family: $paragraph-font;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    border-bottom: 5px solid $highlight-color;
+}
+
+.active a {
+    border-bottom: 5px solid $accent-color;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+/* Header */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+/* Title */
+
+.title, .logo {
+    padding: 2em 1em 3em 0;
+    margin: auto;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .nav a {
+        font-size: 2vw;
+    }
+
+    .paragraph-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    
+        .paragraph-p {
+            margin: 0 auto;
+            padding: 2em 0;
+            width: 100%;
+
+        }
+    
+        .paragraph-img {
+            width: 100%;
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+
+    .nav a:hover {
+        background-color: none;
+        border-bottom: 0;
+    }
+
+    .active a, .active a:hover {
+        background-color: $accent-color;
+        border-bottom: 0;
+    }
+}
+
+.title * {
+    color: $font-color;
+    text-decoration: none;
+}
+
+.title h1 {
+    font-size: 1.5em;
+}
+
+.title p {
+    font-size: 1em;
+    font-style: italic;
+}
+
+
+/* Typography */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+p {
+    font-family: $paragraph-font;
+    font-size: 1.5em;
+}
+
+p a {
+    color: $font-alternative-color;
+}
+
+p a:hover {
+    color: $dark-color;
+    background-color: $highlight-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headline-font;
+    margin-bottom: 0.6em;
+    font-weight: 800;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 50px;
+    border-top: 5px solid $font-alternative-color;
+    background-color: $dark-color;
+    padding: 40px 80px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    margin: auto;
+    color: $font-alternative-color;
+    font-size: 1em;
+    max-width: 1600px;
+
+    p {
+        color: $font-alternative-color;
+        font-size: 1em;
+    }
+
+    .social i {
+        font-size: 2rem;
+        padding-left: 10px;
+        color: $font-alternative-color;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover, .social i:hover {
+        color: $highlight-color;
+    }
+
+}
+
+
+/* Page content */
+.paragraph-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .paragraph-p {
+        margin: 0 auto;
+        padding: 2em 0;
+    }
+
+    .paragraph-img {
+        margin: 0 auto auto;
+        width: 40%;
+        padding: 2em;
+    }
+}
+
+.tech-img {
+    height: 100px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.html-logo, .sass-logo, .pico-logo {
+    margin: auto;
+    height: 100%;
+}
