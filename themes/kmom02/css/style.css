@@ -568,6 +568,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
 }
 
+h1 {
+  font-size: 3.5rem;
+}
+
 /* Footer */
 .footer {
   margin-top: 50px;
@@ -614,12 +618,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2em 0;
 }
 .paragraph-wrapper .paragraph-img {
-  margin: 0 auto auto auto;
+  margin: 0 auto auto;
   width: 40%;
-  padding: 2em;
-}
-.paragraph-wrapper .paragraph-img img {
-  width: 100%;
+  padding: 3em 2em;
 }
 
 .tech-img {

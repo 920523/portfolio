@@ -3,7 +3,7 @@ Title: Home
 Description: This is our index page.
 ---
 
-Hi! I'm August, a teacher turning web developer
+Teacher turning web developer
 ==========================
 <div class="paragraph-wrapper">
 <div class="paragraph-p">
