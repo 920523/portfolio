@@ -1,0 +1,120 @@
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+    justify-content: stretch;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.box1 {
+    grid-column: span 1;
+}
+
+.box2 {
+    grid-column: span 2;
+}
+
+.box3 {
+    grid-column: span 3;
+}
+
+.box1, .box2, .box3 {
+    display: inline-block;
+    background: rgb(63,133,251);
+    background: linear-gradient(140deg, rgba(63,133,251,1) 0%, rgba(70,252,167,1) 100%);
+    height: 4em;
+    border-radius: 1px;
+}
+
+.box1:hover, .box2:hover, .box3:hover {
+    background: rgb(63,133,251);
+    background: linear-gradient(140deg, rgba(63,133,251,0.5) 0%, rgba(70,252,167,0.5) 100%);
+}
+
+.box1 a, .box2 a, .box3 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.9;
+}
+
+.sidebar {
+    grid-column: span 1;
+}
+
+
+.main-tech {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(9, 1fr);
+    gap: 1em 1em;
+}
+
+
+.tech-content {
+    grid-area: 1 / 2 / 10 / 3;
+}
+
+.sidebar {
+    grid-area: 3 / 1 / 10 / 2;
+}
+
+.sidebar a {
+    display: block;
+    margin-bottom: 0.5em;
+    padding: 0.2em;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(63,133,251);
+    background: linear-gradient(140deg, rgba(63,133,251,1) 0%, rgba(70,252,167,1) 100%);
+}
+
+.sidebar a:hover {
+    background: rgb(63,133,251);
+    background: linear-gradient(140deg, rgba(63,133,251,0.5) 0%, rgba(70,252,167,1) 100%);
+}
+
+@media (max-width: 800px) {
+    .main-tech {
+        width: 98%;
+    }
+}
+
+@media (max-width: 650px) {
+    .tech-content {
+        grid-area: 2 / 1 / 10 / 3;
+    }
+
+    .sidebar {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    .sidebar a {
+        display: inline-block;
+        margin-right: 0.5em;
+        margin-top: 0.5em;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 500px) {
+    .box1, .box2, .box3 {
+        grid-column: span 3;
+    }
+
+    .landingpage h1 {
+        font-size: 12vw;
+    }
+}

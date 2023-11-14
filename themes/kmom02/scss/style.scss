@@ -5,6 +5,7 @@
 @import 'blockquotes';
 @import 'code';
 @import 'mobile-menu';
+@import 'technology';
 
 // /* Visualize all elements */
 // * {
@@ -70,19 +71,19 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 2em 1em 3em 0;
+    padding: 1em;
     margin: auto;
 }
 
 .logo {
-    width: 150px;
+    width: 75px;
 }
 
 .logo img {
     max-width: 100%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .nav a {
         font-size: 2vw;
     }
@@ -136,11 +137,13 @@ body {
 
 .title h1 {
     font-size: 1.5em;
+    line-height: 1em;
 }
 
 .title p {
-    font-size: 1em;
+    font-size: 0.75em;
     font-style: italic;
+    line-height: 1em;
 }
 
 
@@ -153,7 +156,7 @@ body {
 
 p {
     font-family: $paragraph-font;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 p a {
