@@ -537,12 +537,11 @@ pre code {
   }
 }
 body {
-  background: rgb(204, 175, 231);
-  background: linear-gradient(127deg, rgb(204, 175, 231) 0%, rgb(203, 230, 220) 45%, rgb(255, 191, 113) 100%);
+  background-color: #132318;
 }
 
 * {
-  color: #213b29;
+  color: #cfd9dc;
 }
 
 ::selection {
@@ -564,6 +563,7 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 1.8rem;
   text-decoration: none;
+  color: #467d57;
 }
 
 .nav a:hover {
@@ -643,7 +643,7 @@ body {
   }
 }
 .title * {
-  color: #213b29;
+  color: #cfd9dc;
   text-decoration: none;
 }
 
@@ -670,7 +670,7 @@ p {
 }
 
 p a {
-  color: #467d57;
+  color: #cfd9dc;
 }
 
 p a:hover {
@@ -691,8 +691,8 @@ h1 {
 /* Footer */
 .footer {
   margin-top: 50px;
-  border-top: 5px solid #467d57;
-  background-color: #132318;
+  border-top: 5px solid #78e69b;
+  background-color: #467d57;
   padding: 40px 80px;
 }
 
@@ -708,19 +708,19 @@ h1 {
   max-width: 1600px;
 }
 .footer-content p {
-  color: #467d57;
+  color: #78e69b;
   font-size: 1em;
 }
 .footer-content .social i {
   font-size: 2rem;
   padding-left: 10px;
-  color: #467d57;
+  color: #78e69b;
 }
 .footer-content a {
   text-decoration: none;
 }
 .footer-content a:hover, .footer-content .social i:hover {
-  color: #78e69b;
+  color: #132318;
 }
 
 /* Page content */
