@@ -1,0 +1,50 @@
+@media (max-width: 1100px) {
+    .nav a {
+        font-size: 2vw;
+    }
+
+    .paragraph-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    
+        .paragraph-p {
+            margin: 0 auto;
+            padding: 2em 0;
+            width: 100%;
+
+        }
+    
+        .paragraph-img {
+            width: 100%;
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+
+    .nav a {
+        font-size: 1.5rem;
+    }
+
+    .nav a:hover {
+        background-color: none;
+        border-bottom: 0;
+    }
+
+    .active a, .active a:hover {
+        color: $font-alternative-color;
+        border: 0;
+    }
+}
