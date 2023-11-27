@@ -562,7 +562,7 @@ body {
 
 .nav a {
   font-family: "Inter", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
@@ -658,6 +658,12 @@ body {
   line-height: 1em;
 }
 
+hr {
+  border: solid #467d57 1px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
 /* Typography */
 body {
   font-family: sans-serif;
@@ -681,6 +687,7 @@ p a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Epilogue", sans-serif;
   margin-bottom: 0.6em;
+  margin-top: 2em;
   font-weight: 800;
 }
 
@@ -737,6 +744,10 @@ h1 {
   margin: 0 auto auto;
   width: 40%;
   padding: 3em 2em;
+}
+
+.screenshot {
+  max-width: 45%;
 }
 
 .tech-img {

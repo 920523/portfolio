@@ -39,7 +39,7 @@ background: linear-gradient(127deg, rgba(204,175,231,1) 0%, rgba(203,230,220,1) 
 
 .nav a {
     font-family: $paragraph-font;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     text-decoration: none;
 }
 
@@ -147,6 +147,12 @@ background: linear-gradient(127deg, rgba(204,175,231,1) 0%, rgba(203,230,220,1) 
     line-height: 1em;
 }
 
+hr {
+    border: solid $font-alternative-color 1px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
 
 /* Typography */
 
@@ -172,6 +178,7 @@ p a:hover {
 h1, h2, h3, h4, h5, h6 {
     font-family: $headline-font;
     margin-bottom: 0.6em;
+    margin-top: 2em;
     font-weight: 800;
 }
 
@@ -238,6 +245,10 @@ h1 {
         width: 40%;
         padding: 3em 2em;
     }
+}
+
+.screenshot {
+    max-width: 45%;
 }
 
 .tech-img {
