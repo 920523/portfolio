@@ -2,11 +2,12 @@
 @import 'variables';
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&family=Inter&display=swap');
 
+@import 'nav';
 @import 'blockquotes';
 @import 'code';
-@import 'mobile-menu';
 @import 'media-queries';
 @import 'technology';
+@import 'gallery';
 
 // /* Visualize all elements */
 // * {
@@ -15,7 +16,7 @@
 
 body {
     background: rgb(204,175,231);
-background: linear-gradient(127deg, rgba(204,175,231,1) 0%, rgba(203,230,220,1) 45%, rgba(255,191,113,1) 100%);
+    background: linear-gradient(127deg, rgba(204,175,231,1) 0%, rgba(203,230,220,1) 45%, rgba(255,191,113,1) 100%);
 }
 
 * {
@@ -38,20 +39,6 @@ background: linear-gradient(127deg, rgba(204,175,231,1) 0%, rgba(203,230,220,1) 
     flex-direction: column;
 }
 
-.nav a {
-    font-family: $paragraph-font;
-    font-size: 1.2rem;
-    text-decoration: none;
-}
-
-.nav a:hover {
-    border-bottom: 5px solid $highlight-color;
-}
-
-.active a {
-    border-bottom: 5px solid $accent-color;
-}
-
 .main {
     flex: 1 0 auto;
     width: 80%;
@@ -68,6 +55,12 @@ background: linear-gradient(127deg, rgba(204,175,231,1) 0%, rgba(203,230,220,1) 
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
+}
+
+.nav a {
+    font-family: $paragraph-font;
+    font-size: 1.2rem;
+    text-decoration: none;
 }
 
 /* Title */

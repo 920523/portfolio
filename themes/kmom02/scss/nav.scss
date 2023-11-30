@@ -1,0 +1,28 @@
+/* Navigation */
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 0 1em;
+    margin: auto;
+}
+
+// This is set in style.scss and style-dark.scss
+// .nav a {
+//     font-family: $paragraph-font;
+//     font-size: 1.2rem;
+//     text-decoration: none;
+// }
+
+.nav a:hover {
+    border-bottom: 5px solid $highlight-color;
+}
+
+.active a {
+    border-bottom: 5px solid $accent-color;
+}
