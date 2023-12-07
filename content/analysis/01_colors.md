@@ -13,7 +13,8 @@ Method
 
 To identify the colors used in these websites I have utilized web browser Google Chrome and its developer tools to extract info on different elements, such as color hex codes and fonts. For non-coded colors in images I have used the built-in color picker. Screenshots of the websites were captured with the MacOS built-in tool.
 
----
+Results
+-----------------------
 
 ### Ritual
 <img src="%assets_url%/img/ritual.png" alt="Ritual" class="screenshot">

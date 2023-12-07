@@ -718,6 +718,12 @@ body {
   line-height: 1em;
 }
 
+hr {
+  border: solid #467d57 1px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
 /* Typography */
 body {
   font-family: sans-serif;
@@ -801,6 +807,10 @@ h1 {
 
 .screenshot {
   max-width: 45%;
+}
+
+.screenshot-full {
+  max-width: 100%;
 }
 
 .tech-img {

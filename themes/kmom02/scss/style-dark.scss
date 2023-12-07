@@ -94,6 +94,12 @@ body {
     line-height: 1em;
 }
 
+hr {
+    border: solid $font-alternative-color 1px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
 
 /* Typography */
 
@@ -189,6 +195,10 @@ h1 {
 
 .screenshot {
     max-width: 45%;
+}
+
+.screenshot-full {
+    max-width: 100%;
 }
 
 .tech-img {

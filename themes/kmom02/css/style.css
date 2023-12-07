@@ -810,6 +810,10 @@ h1 {
   max-width: 45%;
 }
 
+.screenshot-full {
+  max-width: 100%;
+}
+
 .tech-img {
   height: 100px;
   margin-top: 80px;

@@ -41,18 +41,18 @@
 .item9 { grid-area: item9; }
 
 @media (max-width: 400px) {
-.gallery-wrapper {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "item1"
-    "item2"
-    "item3"
-    "item4"
-    "item5"
-    "item6"
-    "item7"
-    "item8"
-    "item9";
+    .gallery-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "item5"
+        "item6"
+        "item7"
+        "item8"
+        "item9";
     }
 }
 
