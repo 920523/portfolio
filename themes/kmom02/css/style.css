@@ -775,19 +775,19 @@ h1 {
   max-width: 1600px;
 }
 .footer-content p {
-  color: #467d57;
+  color: #78e69b;
   font-size: 1em;
 }
 .footer-content .social i {
   font-size: 2rem;
   padding-left: 10px;
-  color: #467d57;
+  color: #78e69b;
 }
 .footer-content a {
   text-decoration: none;
 }
 .footer-content a:hover, .footer-content .social i:hover {
-  color: #78e69b;
+  color: #467d57;
 }
 
 /* Page content */

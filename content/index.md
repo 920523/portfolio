@@ -14,5 +14,5 @@ I study fullstack web development at Blekinge Institute of Technology. For the p
 When I'm not building websites I enjoy playing basketball, going for gravel bike rides and spending time with friends and family.
 </p>
 </div>
-<img src="%assets_url%/img/me.jpg" class="paragraph-img">
+<img src="%assets_url%/img/me.jpg" class="paragraph-img" alt="me">
 </div>

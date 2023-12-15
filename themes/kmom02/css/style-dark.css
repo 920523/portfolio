@@ -685,7 +685,7 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 1.2rem;
   text-decoration: none;
-  color: #467d57;
+  color: #cfd9dc;
 }
 
 /* Title */
@@ -758,8 +758,8 @@ h1 {
 /* Footer */
 .footer {
   margin-top: 50px;
-  border-top: 5px solid #78e69b;
-  background-color: #467d57;
+  border-top: 5px solid #467d57;
+  background-color: #78e69b;
   padding: 40px 80px;
 }
 
@@ -775,19 +775,19 @@ h1 {
   max-width: 1600px;
 }
 .footer-content p {
-  color: #78e69b;
+  color: #132318;
   font-size: 1em;
 }
 .footer-content .social i {
   font-size: 2rem;
   padding-left: 10px;
-  color: #78e69b;
+  color: #132318;
 }
 .footer-content a {
   text-decoration: none;
 }
 .footer-content a:hover, .footer-content .social i:hover {
-  color: #132318;
+  color: #467d57;
 }
 
 /* Page content */
