@@ -125,6 +125,7 @@ p a:hover {
 h1, h2, h3, h4, h5, h6 {
     font-family: $headline-font;
     margin-bottom: 0.6em;
+    margin-top: 2em;
     font-weight: 800;
 }
 
@@ -188,8 +189,8 @@ h1 {
 
     .paragraph-img {
         margin: 0 auto auto;
-        width: 40%;
-        padding: 3em 2em;
+        width: 30%;
+        padding: 3em 0  0 4em;
     }
 }
 

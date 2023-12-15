@@ -16,7 +16,7 @@
     "style-dark-min": "sass kmom02/scss/style-dark.scss kmom02/css/style-dark.min.css --no-source-map --style compressed",
     "style-light": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
     "style-light-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
-},
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
